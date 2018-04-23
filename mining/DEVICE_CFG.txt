@@ -1,0 +1,3 @@
+CPU:Y
+AMD:N
+NVIDIA:N
