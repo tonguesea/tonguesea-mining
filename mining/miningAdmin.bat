@@ -1,9 +1,9 @@
 @echo off
 
-set /p targetCoins=<C:\tonguesea-mining\mining\TARGET_COIN.txt
-
 :start
 echo =================================
+
+set /p targetCoins=<C:\tonguesea-mining\mining\TARGET_COIN.txt
 echo Going to mining: %targetCoins%
 
 echo Coping config file
@@ -68,17 +68,20 @@ echo =================================
 :check
 choice /t 30 /d y /n > nul
 echo ---------------------------------
-echo Checking target mining coin...
-set /p newTarget=<C:\tonguesea-mining\mining\TARGET_COIN.txt
 
-if %newTarget%==%targetCoins% (
-	echo No change.
+echo Checking restart mining flag...
+set /p restartMining=<C:\tonguesea-mining\mining\RESTART.txt
+
+if %restartMining%==N (
+	echo No need to restart.
 	goto check
-) else ( 
-	echo Changing from %targetCoins% to %newTarget%, killing current mining process...
+) else (
+	echo Need restart, killing current mining process...
 	taskkill.exe /f /im xmr-stak.exe
 	echo Killed.
-	set targetCoins=%newTarget%
+
+	echo N>C:\tonguesea-mining\mining\RESTART.txt
+
 	goto start
 )
 

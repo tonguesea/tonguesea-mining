@@ -6,7 +6,7 @@ echo Initial start...
 
 set poolPath=C:\tonguesea-mining\mining\cryptonight\pools
 
-for %%i in ( etn,sumo,xmr,goal,trtl ) do (
+for %%i in ( etn,sumo,xmr,coal,trtl ) do (
 	echo %%i
 	for /f "usebackq delims=" %%a in ("%poolPath%\%%i\pools.txt") do (
 		set "var=%%a"

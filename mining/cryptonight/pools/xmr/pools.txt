@@ -13,7 +13,7 @@
  */
 "pool_list" :
 [
-	{"pool_address" : "pool.supportxmr.com:5555", "wallet_address" : "44DmdJXTKaJbKBVH9mjdtpXwAa62uGbLB49JT5PrDhyGAvgHCnME4HDiqi42waPXAaPHXsgbV3aQ133BkKW9qopXS9nDXJp+5000", "rig_id" : "Tonguesea-W0000", "pool_password" : "Tonguesea-W0000:tonguese@126.com", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "192.168.1.151:7777", "wallet_address" : "44DmdJXTKaJbKBVH9mjdtpXwAa62uGbLB49JT5PrDhyGAvgHCnME4HDiqi42waPXAaPHXsgbV3aQ133BkKW9qopXS9nDXJp+5000", "rig_id" : "Tonguesea-OB2", "pool_password" : "Tonguesea-OB2:tonguese@126.com", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 /*
  * Currency to mine. Supported values:

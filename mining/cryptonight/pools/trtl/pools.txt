@@ -13,7 +13,7 @@
  */
 "pool_list" :
 [
-	{"pool_address" : "hk.turtlepool.space:5555", "wallet_address" : "TRTLuxsHjzGSzfASoRYzYWS9NBatnH58oBuRJrak6fkQPUzGZhmQ4Zj8CZZH3j26Vk5osEJnk8uPDN2WP9q5VWjZTTBCUgCsLvk", "rig_id" : "Tonguesea-W0000", "pool_password" : "Tonguesea-W0000:tonguese@126.com", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "hk.turtlepool.space:5555", "wallet_address" : "TRTLuxsHjzGSzfASoRYzYWS9NBatnH58oBuRJrak6fkQPUzGZhmQ4Zj8CZZH3j26Vk5osEJnk8uPDN2WP9q5VWjZTTBCUgCsLvk", "rig_id" : "Tonguesea-OB2", "pool_password" : "Tonguesea-OB2:tonguese@126.com", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 /*
  * Currency to mine. Supported values:
